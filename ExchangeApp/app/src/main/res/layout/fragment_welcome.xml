@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-            android:paddingTop="40dp"
+            android:paddingTop="50dp"
             android:padding="30dp"
             android:textSize="20sp"
         />
@@ -25,16 +25,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
-                android:id="@+id/homecurrency"
+                android:id="@+id/selecthome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="start"
-                android:padding="15dp"
-                android:text="Select your home country currency:"/>
+                android:padding="20dp"
+                android:text="Select your home country currency:"
+                android:textSize="15dp"/>
 
             <EditText
-                android:id="@+id/host_entry"
-                android:text="localhost"
+                android:id="@+id/home_curr"
+                android:text="USD"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="7dp"
@@ -48,7 +49,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/port"
+                android:id="@+id/select_target"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="start"
@@ -57,8 +58,8 @@
                 android:text="Select your target country's currency" />
 
             <EditText
-                android:id="@+id/port_entry"
-                android:text="8080"
+                android:id="@+id/target_curr"
+                android:text="Eur"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="10dp"
@@ -69,7 +70,7 @@
 
 
             <Button
-                android:id="@+id/signin_button"
+                android:id="@+id/calc_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
